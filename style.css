@@ -5,3 +5,64 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Top section part  */
+.top-part ,.about-me{
+    height: 500px;
+    padding: 100px 0px;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(65, 59, 59);
+    text-transform: capitalize;
+}
+.top-part .half-width p{
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+span{
+    color: orange;
+}
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    background-image: linear-gradient(tomato,orange);
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px tomato;
+    border-image-slice: 1;
+}
+/* About me part */
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-me .half-width img{
+    padding-top: 10px;
+    width: 46%;
+    padding-left: 15%;
+}
+.about-me p{
+    margin-bottom: 80px;
+    margin-right: 120px;
+}
+.about-me h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    color: gray;
+}
