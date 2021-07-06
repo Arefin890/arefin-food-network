@@ -50,6 +50,7 @@ span{
 .about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    padding-bottom: 30px;
 }
 .about-me .half-width img{
     padding-top: 10px;
@@ -60,9 +61,58 @@ span{
     margin-bottom: 80px;
     margin-right: 120px;
 }
-.about-me h2{
+.about-me h2, .my-recipie h2{
     font-size: 30px;
     margin-bottom: 50px;
     text-transform: capitalize;
     color: gray;
+}
+/* My Recipie part */
+.my-recipie h2{
+    margin-bottom: 20px;
+}
+.main-div{
+    position: absolute;
+    width: 100%;
+}
+
+.recipie-header{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.recipie-header p{
+    margin-top: 20px;
+}
+.sub-div{
+    position: relative;
+    left: 90px;
+    width: 25%;
+    margin-left: 3%;
+    float: left;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.sub-div img{
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.left-div{
+    margin-left: 70px;
+}
+.sub-div h2{
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.sub-div p{
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: left;
+    padding-bottom: 50px;
 }
