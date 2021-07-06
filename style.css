@@ -73,7 +73,7 @@ span{
     border-image-slice: 1;
 }
 /* About me part */
-.about-me{
+ .about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     padding-bottom: 30px;
@@ -98,7 +98,6 @@ span{
     margin-bottom: 20px;
 }
 .main-div{
-    position: absolute;
     width: 100%;
 }
 
@@ -141,13 +140,25 @@ span{
     margin-right: 5px;
     text-align: left;
     padding-bottom: 50px;
-}
+} 
 /* footer part */
-.footer{
+footer{
     text-align: center;
     text-transform: capitalize;
     background-color: black;
+    margin-top: 50px;
 }
-.footer h2{
-    color: white;
+footer span{
+    margin-right: 10px;
+}
+footer h2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: grey;
+}
+footer p{
+    color: gainsboro;
+    text-transform: initial;
+    padding-bottom: 50px;
 }
